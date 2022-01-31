@@ -7081,8 +7081,7 @@ export const VALIDGUESSES = [
   'preve',
   'prexy',
   'preys',
-  'prial'
-  'price',
+  'prial',
   'pricy',
   'prief',
   'prier',
