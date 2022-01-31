@@ -14,14 +14,14 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
           href="https://github.com/hannahcode/wordle"
           className="underline font-bold"
         >
-          Hannah Code
+          Hannah Code.
         </a>{' '}
-        and{' '}
+        <br>{' '}
         <a
           href="https://www.powerlanguage.co.uk/wordle/"
           className="underline font-bold"
         >
-          play the original here
+          Play the original here
         </a>
       </p>
     </BaseModal>
