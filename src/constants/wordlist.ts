@@ -90,7 +90,7 @@ export const WORDS = [
 'dBASE',
 'fatal',
 'fetch',
-'NoSQL',
+'nosql',
 'patch',
 'prefs',
 'queue',
