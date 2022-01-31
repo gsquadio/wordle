@@ -10,7 +10,7 @@ module.exports = {
         'mission-coral': '#ff7e75',
         'mission-grey': '#535269',
         'mission-dark-grey': '#27263a',
-        'mission-pink': '#e64b91,
+        'mission-pink': '#e64b91',
       },
     },
   },
