@@ -1,6 +1,6 @@
 {
-  "short_name": "Not Wordle",
-  "name": "Not Wordle",
+  "short_name": "HelloWordle",
+  "name": "Hello Wordle",
   "icons": [
     {
       "src": "favicon.ico",
