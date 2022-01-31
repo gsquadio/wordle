@@ -219,6 +219,8 @@ function App() {
         {MISSION_MESSAGE}
       </button>
 
+      <image src="/logo.svg" height="25px"></image>
+
       <Alert message={NOT_ENOUGH_LETTERS_MESSAGE} isOpen={isNotEnoughLetters} />
       <Alert
         message={WORD_NOT_FOUND_MESSAGE}
