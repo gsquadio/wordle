@@ -5,7 +5,7 @@ import { WORDLE_TITLE } from '../constants/strings'
 export const shareStatus = (guesses: string[], lost: boolean) => {
   navigator.clipboard.writeText(
     `${WORDLE_TITLE} ${solutionIndex} ${lost ? 'X' : guesses.length}/6\n
-    hello-wordle.netlify.app \n`\n +
+    hello-wordle.netlify.app \n` +
       generateEmojiGrid(guesses)
   )
 }
