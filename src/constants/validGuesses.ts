@@ -1684,7 +1684,8 @@ export const VALIDGUESSES = [
   'clips',
   'clipt',
   'clits',
-  'cloam',
+  'cloam'
+  'cloak',
   'clods',
   'cloff',
   'clogs',
@@ -7081,7 +7082,8 @@ export const VALIDGUESSES = [
   'preve',
   'prexy',
   'preys',
-  'prial',
+  'prial'
+  'price',
   'pricy',
   'prief',
   'prier',
