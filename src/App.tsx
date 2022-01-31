@@ -8,6 +8,7 @@ import { Alert } from './components/alerts/Alert'
 import { Grid } from './components/grid/Grid'
 import { Keyboard } from './components/keyboard/Keyboard'
 import { AboutModal } from './components/modals/AboutModal'
+import { MissionModal } from './components/modals/MissionModal'
 import { InfoModal } from './components/modals/InfoModal'
 import { StatsModal } from './components/modals/StatsModal'
 import {
@@ -15,6 +16,7 @@ import {
   WIN_MESSAGES,
   GAME_COPIED_MESSAGE,
   ABOUT_GAME_MESSAGE,
+  MISSION_MESSAGE,
   NOT_ENOUGH_LETTERS_MESSAGE,
   WORD_NOT_FOUND_MESSAGE,
   CORRECT_WORD_MESSAGE,
@@ -39,6 +41,7 @@ function App() {
   const [isGameWon, setIsGameWon] = useState(false)
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false)
   const [isAboutModalOpen, setIsAboutModalOpen] = useState(false)
+  const [isMissionModalOpen, setIsMissionModalOpen] = useState(false)
   const [isNotEnoughLetters, setIsNotEnoughLetters] = useState(false)
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)
   const [isWordNotFoundAlertOpen, setIsWordNotFoundAlertOpen] = useState(false)
@@ -201,6 +204,19 @@ function App() {
         onClick={() => setIsAboutModalOpen(true)}
       >
         {ABOUT_GAME_MESSAGE}
+      </button>
+
+      <MissionModal
+        isOpen={isMissionModalOpen}
+        handleClose={() => setIsMissionModalOpen(false)}
+      />
+
+      <button
+        type="button"
+        className="mx-auto mt-8 flex items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded text-mission-purple bg-[#e4e2ff] hover:bg-[#ecfdff] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-mission-purple select-none"
+        onClick={() => setIsMissionModalOpen(true)}
+      >
+        {MISSION_MESSAGE}
       </button>
 
       <Alert message={NOT_ENOUGH_LETTERS_MESSAGE} isOpen={isNotEnoughLetters} />
