@@ -6725,6 +6725,7 @@ export const VALIDGUESSES = [
   'peons',
   'hello',
   'world',
+  'price',
   'peony',
   'pepla',
   'pepos',
