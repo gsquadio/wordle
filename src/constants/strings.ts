@@ -8,7 +8,7 @@ export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
 export const WORD_NOT_FOUND_MESSAGE = 'Word not in list'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `The word was ${solution}`
-export const ENTER_TEXT = 'Commit'
+export const ENTER_TEXT = 'Push'
 export const DELETE_TEXT = 'Delete'
 export const STATISTICS_TITLE = 'Game Insights'
 export const GUESS_DISTRIBUTION_TEXT = 'Guess Distribution'
