@@ -6723,6 +6723,8 @@ export const VALIDGUESSES = [
   'penni',
   'pents',
   'peons',
+  'hello',
+  'world',
   'peony',
   'pepla',
   'pepos',
