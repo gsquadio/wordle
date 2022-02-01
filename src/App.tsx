@@ -45,6 +45,7 @@ function App() {
   const [isNotEnoughLetters, setIsNotEnoughLetters] = useState(false)
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)
   const [isWordNotFoundAlertOpen, setIsWordNotFoundAlertOpen] = useState(false)
+  const logo = require('/logo.svg')
   const [isGameLost, setIsGameLost] = useState(false)
   const [isDarkMode, setIsDarkMode] = useState(
     localStorage.getItem('theme')
@@ -219,7 +220,7 @@ function App() {
         {MISSION_MESSAGE}
       </button>
 
-      <img [src]="/logo.svg" height="25px">
+      <img alt='mission-logo' style={{ height: 25 }} src={'/logo.svg'} />
 
       <Alert message={NOT_ENOUGH_LETTERS_MESSAGE} isOpen={isNotEnoughLetters} />
       <Alert
