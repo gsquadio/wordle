@@ -45,7 +45,7 @@ function App() {
   const [isNotEnoughLetters, setIsNotEnoughLetters] = useState(false)
   const [isStatsModalOpen, setIsStatsModalOpen] = useState(false)
   const [isWordNotFoundAlertOpen, setIsWordNotFoundAlertOpen] = useState(false)
-  const logo = require('/logo.svg')
+  const logo = require('./components/lib/logo.svg');
   const [isGameLost, setIsGameLost] = useState(false)
   const [isDarkMode, setIsDarkMode] = useState(
     localStorage.getItem('theme')
